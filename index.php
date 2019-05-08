@@ -15,7 +15,7 @@ if ($_POST)
 
 	http_response_code(200);
 	$subject = $_POST['fname'];
-	$to = "philipp_buck_@gmx.de";
+	$to = "<targetMailAddress>";
 	$from = $_POST['email'];
 
 	// data
